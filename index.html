@@ -3,12 +3,15 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport"
-        content="width=device-width, initial scale=1.0" />
+        content="width=device-width, initial-scale=1.0" />
         <title> ToDo App</title>
         <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
     </head>
     <body>
+        <div id="toggle">
+            <i class="indicator"></i>
+        </div>
         <h1>todos</h1>
         <form id="form">
             <input type="text"
@@ -18,7 +21,6 @@
              autocomplete="off" />
              <ul class="todos" id="todos"></ul>
         </form>
-        <small> Left click to mark the todo as complete.</small>
-        <small> Right click to delete the todo.</small>
+        <small> Left click to mark the todo as complete. Right click to delete the todo.</small>
     </body>
 </html>
